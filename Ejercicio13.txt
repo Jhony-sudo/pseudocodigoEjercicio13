@@ -1,0 +1,37 @@
+Algoritmo Ej13
+	Hacer
+		Resultado = 0
+		Escribir "Que operacion desea hacer "
+		Escribir "1. Sumar"
+		Escribir "2. Dividir"
+		Escribir "3. Salir"
+		Leer Eleccion
+		Segun Eleccion Hacer
+			1:
+				Escribir "Ingrese el primer Numero"
+				Leer Num1
+				Escribir "Ingrese el segundo numero"
+				Leer Num2
+				Resultado = Num1 + Num2
+			2:
+				Escribir "Ingrese el primer Numero"
+				Leer Num1
+				Escribir "Ingrese el segundo numero"
+				Leer Num2
+				Si Num2 = 0
+					Escribir "No puedes divir entre 0"
+				FinSi
+				Resultado = Num1/Num2
+			3:
+				Escribir "ADIOS"
+				
+			De Otro Modo:
+				Escribir "ERROR"
+		Fin Segun
+		
+		
+		
+		
+		Escribir "El resultado de la operacion es " Resultado
+	Hasta Que Eleccion = 3 
+FinAlgoritmo
